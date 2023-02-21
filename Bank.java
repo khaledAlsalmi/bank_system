@@ -150,7 +150,7 @@ public class Bank implements BankOperations {
         }
     }
 
-    //@Override
+   
     public void checkingAccount() {
         Scanner input = new Scanner(System.in);
         
@@ -165,7 +165,7 @@ public class Bank implements BankOperations {
     }
 
     
-    //@Override
+    
     public void createNewLoan() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter The Account Number that you want to get New Loan ?");
@@ -178,7 +178,7 @@ public class Bank implements BankOperations {
     }
 
     
-    //@Override
+   
     public void aboutLoan() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter The Account Number that you want to get Information about Loan ?");
@@ -194,7 +194,7 @@ public class Bank implements BankOperations {
         }
     }
 
-    //@Override
+   
     public void payLoan() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter The Account Number that you want to pay for Loan ?");
@@ -211,7 +211,7 @@ public class Bank implements BankOperations {
         }
     }
 
-    //@Override
+   
     public void aboutAccount() {
         Scanner input = new Scanner(System.in);
 
